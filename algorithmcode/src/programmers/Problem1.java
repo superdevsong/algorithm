@@ -3,6 +3,8 @@ package programmers;
 import java.util.HashMap;
 
 //프로그래머스 완주하지 못한선수
+//https://school.programmers.co.kr/learn/courses/30/lessons/42576
+//중복 제외를 위해 hashmap을 활용하여 풀이
 public class Problem1 {
     public String solution(String[] participant, String[] completion) {
         HashMap<String,Integer> hashMap = new HashMap<>();

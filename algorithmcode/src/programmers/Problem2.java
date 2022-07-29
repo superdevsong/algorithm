@@ -1,8 +1,10 @@
 package programmers;
 
 import java.util.*;
-
-class Problem {
+//프로그래머스 기능개발문제
+//https://school.programmers.co.kr/learn/courses/30/lessons/42586
+//queue를 활용해 하나씩 배출하고 비교하며 풀었다.
+class Problem2 {
     public int[] solution(int[] progresses, int[] speeds) {
         int[] answer = {};
         Queue<Integer> proQueue = new LinkedList<>();
