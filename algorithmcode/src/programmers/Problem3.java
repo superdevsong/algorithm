@@ -4,7 +4,7 @@ import java.util.*;
 //프로그래머스 신고결과 받기문제
 //https://school.programmers.co.kr/learn/courses/30/lessons/92334
 //Hash와 set을 활용해 중복값이 없게 풀었다.
-class Promblem3 {
+class Problem3 {
     public int[] solution(String[] id_list, String[] report, int k) {
         HashMap<String,Integer> users = new HashMap<>();
         HashMap<String,HashSet<String>> reports = new HashMap<>();
